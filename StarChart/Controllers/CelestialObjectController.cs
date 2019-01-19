@@ -11,7 +11,7 @@ namespace StarChart.Controllers
 
         public CelestialObjectController(ApplicationDbContext context)
         {
-            context = _context;
+            _context = context;
         }
     }
 }
